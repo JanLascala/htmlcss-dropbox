@@ -31,6 +31,9 @@ header {
 
 main {
     background-color: wheat;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .jumbo {
@@ -42,10 +45,7 @@ main {
     display: flex;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-}
+.container {}
 
 
 
@@ -70,4 +70,16 @@ ul {
     display: flex;
     justify-content: space-between;
 
+}
+
+.box-type-one {
+
+    background-color: brown;
+}
+
+.box-type-two {
+    brown;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
