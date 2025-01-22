@@ -14,10 +14,16 @@
     --dp-primary-color-button-effect: #386fc8;
 }
 
+.button {
+    color: var(--dp-primary-color-accent);
+    padding: 0.5rem 1rem;
+    background-color: var(--dp-primary-color-button);
+}
+
 
 header {
     min-height: 100px;
-    background-color: aqua;
+    background-color: var(--dp-primary-color-light);
     position: sticky;
     top: 0;
     width: 100%;
@@ -25,10 +31,15 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    .button {
+        margin-top: -0.5rem;
+    }
+
     ul {
-        background-color: bisque;
+        color: var(--dp-primary-color-dark);
         list-style: none;
         display: flex;
+        gap: 2rem;
 
     }
 
@@ -37,7 +48,14 @@ header {
         padding: 1rem;
     }
 
-    a {}
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+
+        }
+    }
 
 }
 
