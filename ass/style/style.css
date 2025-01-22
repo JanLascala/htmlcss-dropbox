@@ -34,3 +34,12 @@ main {
     margin: auto;
     background-color: wheat;
 }
+
+.jumbo {
+    background-color: bisque;
+    text-align: center;
+}
+
+.jumbocontainer {
+    display: flex;
+}
