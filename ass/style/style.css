@@ -11,13 +11,17 @@
     --dp-primary-color-light: white;
     --dp-primary-color-accent: white;
     --dp-primary-color-button: #0061fe;
-    --dp-primary-color-button-effect: #386fc8;
+    --dp-primary-color-button-effect: #5b92ea;
 }
 
 .button {
     color: var(--dp-primary-color-accent);
     padding: 0.5rem 1rem;
     background-color: var(--dp-primary-color-button);
+
+    &:hover {
+        background-color: var(--dp-primary-color-button-effect);
+    }
 }
 
 
@@ -49,10 +53,13 @@ header {
     }
 
     a {
+        color: var(--dp-primary-color-dark);
         text-decoration: none;
 
         &:hover {
-            text-decoration: underline;
+            text-decoration-line: underline;
+            text-decoration-thickness: 5px;
+            text-underline-offset: 49px;
 
         }
     }
