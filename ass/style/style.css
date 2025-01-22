@@ -5,10 +5,22 @@
     border-style: dashed;
 }
 
+:root {
+    --dp-primary-color: #b4d0e6;
+    --dp-primary-color-dark: #000000;
+    --dp-primary-color-light: white;
+    --dp-primary-color-accent: white;
+    --dp-primary-color-button: #0061fe;
+    --dp-primary-color-button-effect: #386fc8;
+}
+
 
 header {
     min-height: 100px;
     background-color: aqua;
+    position: sticky;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,11 +50,14 @@ main {
 
 .jumbo {
     background-color: bisque;
+    width: 100%;
+    margin: 0;
     text-align: center;
 }
 
 .jumbocontainer {
     display: flex;
+    justify-content: center;
 }
 
 .container {}
