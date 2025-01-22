@@ -30,8 +30,6 @@ header {
 }
 
 main {
-    width: 80%;
-    margin: auto;
     background-color: wheat;
 }
 
@@ -42,4 +40,28 @@ main {
 
 .jumbocontainer {
     display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    width: 33.333%;
+    flex-basis: auto;
+
+
+}
+
+ul {
+    list-style: none;
 }
