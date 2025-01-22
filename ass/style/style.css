@@ -65,3 +65,9 @@ main {
 ul {
     list-style: none;
 }
+
+.box-content {
+    display: flex;
+    justify-content: space-between;
+
+}
