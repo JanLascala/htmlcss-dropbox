@@ -74,15 +74,41 @@ main {
 }
 
 .jumbo {
-    background-color: bisque;
+    background-color: var(--dp-primary-color);
     width: 100%;
     margin: 0;
+
     text-align: center;
+
+    h1 {
+        padding: 2rem;
+    }
 }
+
+.jumbo_content {
+
+    text-align: center;
+    padding: 1rem;
+    max-width: 400px;
+
+    p {
+        padding: 1rem;
+    }
+}
+
+.jumbo_img {}
 
 .jumbocontainer {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    img {
+        display: flex;
+        justify-content: center;
+        max-width: 800px;
+        max-height: 500px;
+    }
 }
 
 .payment-option {
