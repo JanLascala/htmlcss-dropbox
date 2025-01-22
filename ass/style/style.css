@@ -67,7 +67,7 @@ header {
 }
 
 main {
-    background-color: wheat;
+
     max-width: 80%;
     margin: auto;
     text-align: center;
@@ -108,11 +108,24 @@ main {
         justify-content: center;
         max-width: 800px;
         max-height: 500px;
+        margin-bottom: -3rem;
     }
 }
 
-.payment-option {
-    padding 1rem;
+.payment-options {
+    padding: 4rem;
+}
+
+.radial {
+    display: inline-flex;
+    padding: 3rem;
+    gap: 2rem;
+
+    input[type="radio"] {
+        accent-color: var(--dp-primary-color-button);
+    }
+
+}
 }
 
 .container {
