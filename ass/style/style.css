@@ -113,7 +113,8 @@ main {
 }
 
 .payment-options {
-    padding: 4rem;
+    padding: 4rem 0rem;
+    text-align: left;
 }
 
 .radial {
