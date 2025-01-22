@@ -60,20 +60,26 @@ main {
     justify-content: center;
 }
 
-.container {}
-
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-
+.payment-option {
+    padding 1rem;
 }
 
-.col {
-    width: 33.333%;
-    flex-basis: auto;
+.container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+
+
+.col {
+    flex-wrap: wrap;
+    width: 33.333%;
+    margin: auto;
+    flex-basis: auto;
 
 }
 
