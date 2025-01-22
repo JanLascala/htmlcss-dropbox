@@ -4,3 +4,33 @@
     box-sizing: border-box;
     border-style: dashed;
 }
+
+
+header {
+    min-height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        background-color: bisque;
+        list-style: none;
+        display: flex;
+
+    }
+
+    .nav-right,
+    .nav-left {
+        padding: 1rem;
+    }
+
+    a {}
+
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background-color: wheat;
+}
