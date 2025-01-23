@@ -24,6 +24,10 @@
     }
 }
 
+h2 {
+    padding-top: 3rem;
+}
+
 
 header {
     min-height: 100px;
@@ -144,7 +148,7 @@ main {
     flex-wrap: wrap;
     width: 33.333%;
     flex-basis: auto;
-    padding: 1rem;
+    padding: 1rem 0rem;
 
 }
 
@@ -188,6 +192,7 @@ ul {
 
 }
 
+/*enterprise*/
 .box-type-one {
     border: 1px solid grey;
 
@@ -203,13 +208,39 @@ ul {
 
     }
 
-
+    /*partnership*/
 }
 
 .box-type-two {
+    padding-top: 2rem;
     margin: auto;
     display: flex;
     justify-content: center;
+    text-align: left;
+
+    img {
+        max-width: 600px;
+        max-height: 500px;
+    }
+
+    h3,
+    p {
+        padding: 2rem;
+    }
+
+    .special-button {
+        font-weight: 600;
+        color: grey;
+        margin-left: 5%;
+        padding: 0.75rem 1rem;
+        background-color: transparent;
+        border: solid 2px grey;
+
+        &:hover {
+            color: lightgrey;
+            border: solid 2px lightgray;
+        }
+    }
 }
 
 footer {
