@@ -115,6 +115,7 @@ main {
     }
 }
 
+/*payment options*/
 .payment-options {
     padding: 4rem 0rem;
     text-align: left;
@@ -133,6 +134,7 @@ main {
 
 }
 
+/*cards buying options*/
 
 .container {
     padding-top: 2rem;
@@ -146,7 +148,7 @@ main {
 .col {
     display: flex;
     flex-wrap: wrap;
-    width: 33.333%;
+    width: 30%;
     padding: 1rem 0rem;
 
 }
@@ -172,8 +174,6 @@ main {
     label {
         color: grey;
     }
-
-
 }
 
 
@@ -272,6 +272,16 @@ ul {
         padding-right: 2rem;
     }
 
+}
+
+/*publicity*/
+.publicity {
+    padding: 3rem 0;
+    text-align: left;
+
+    h2 {
+        padding-bottom: 3rem;
+    }
 }
 
 footer {
