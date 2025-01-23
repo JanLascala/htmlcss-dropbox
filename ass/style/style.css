@@ -186,7 +186,17 @@ main {
     }
 }
 
+.features {
+    padding: 0;
 
+    div {
+        padding-bottom: 0;
+    }
+
+    i {
+        padding-bottom: 0;
+    }
+}
 
 
 
