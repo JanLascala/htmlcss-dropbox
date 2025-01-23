@@ -96,7 +96,6 @@ main {
     }
 }
 
-.jumbo_img {}
 
 .jumbocontainer {
     display: flex;
@@ -119,10 +118,12 @@ main {
 
 .radial {
     display: inline-flex;
-    padding: 3rem;
+    padding: 3rem 0rem;
     gap: 2rem;
 
     input[type="radio"] {
+
+
         accent-color: var(--dp-primary-color-button);
     }
 
@@ -141,12 +142,35 @@ main {
 
 
 .col {
+    display: flex;
     flex-wrap: wrap;
     width: 33.333%;
     margin: auto;
     flex-basis: auto;
+    padding: 1rem;
 
 }
+
+.card {
+    border: 1px solid grey;
+
+    * {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #checkmark {
+        color: var(--dp-primary-color-button);
+    }
+
+
+
+
+}
+
+
+
+
 
 ul {
     list-style: none;
