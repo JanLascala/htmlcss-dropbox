@@ -91,12 +91,21 @@ main {
 
 .jumbo_content {
 
-    text-align: center;
+    text-align: left;
     padding: 1rem;
     max-width: 400px;
 
+    .button {
+        margin: 10px
+    }
+
     p {
         padding: 1rem;
+    }
+
+    i {
+        color: black;
+        font-size: 50px;
     }
 }
 
@@ -120,6 +129,7 @@ main {
     padding: 4rem 0rem;
     text-align: left;
 }
+
 
 .radial {
     display: inline-flex;
