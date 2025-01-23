@@ -284,13 +284,27 @@ ul {
     }
 }
 
+/*footer*/
 footer {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.102);
+    background-color: var(--dp-primary-color-dark);
+
+    ul {
+        color: var(--dp-primary-color-accent);
+    }
+
+    .list-title {
+        font-weight: 800;
+    }
+
+    li {
+        font-size: 10px;
+        padding: 0.5rem;
+    }
 }
 
 .footer-box {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    padding: 2rem 5rem;
 }
