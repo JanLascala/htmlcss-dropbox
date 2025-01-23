@@ -184,12 +184,26 @@ ul {
 .box-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .box-type-one {
+    border: 1px solid grey;
 
-    background-color: brown;
+    .icon-box {
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 1px solid grey;
+    }
+
+    .text {
+        text-align: left;
+        padding: 1rem;
+
+    }
+
+
 }
 
 .box-type-two {
